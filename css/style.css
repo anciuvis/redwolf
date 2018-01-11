@@ -1,0 +1,66 @@
+/*style*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px 'Roboto Slab';
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  min-width: 1024px;
+  max-width: 1360px;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+  width: 15%;
+  padding: 1em;
+  vertical-align: middle;
+}
+
+.menu {
+  display: inline-block;
+  float: right;
+  width: 60%;
+  vertical-align: middle;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #a4243d;
+  vertical-align: middle;
+  padding: 1em 1em;
+}
+
+nav a img {
+  width: 150px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+nav ul {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.1em 0.2em;
+  font-size: 1.5rem;
+}
