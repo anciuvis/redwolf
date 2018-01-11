@@ -3,8 +3,13 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  color: #684f53;
+}
+
 body {
-  font: 14px 'Roboto Slab';
   background-color: #f2f2f2;
 }
 
@@ -72,6 +77,18 @@ header ul li {
   border: none;
 }
 
+.flex-control-paging li a {
+  background-color: #a4243d;
+}
+
+.flex-control-paging li a.flex-active {
+  background-color: #f45d54;
+}
+
+.flex-control-paging li a:hover {
+  background-color: #3333336e;
+}
+
 h1 {
   border-bottom: solid #f45d54 5px;
   text-align: left;
@@ -87,5 +104,40 @@ h1 span {
 }
 
 .content {
-  border: solid 1px;
+  border: ridge 1px #dedede;
+  background-color: #ffffff;
+  padding: 1em;
+  /*min-height: auto;*/
+}
+
+.content img {
+  max-width: 100%;
+}
+
+h2 {
+  font-weight: bold;
+  color: #c54857;
+  border-bottom: solid #c54857 2px;
+  padding: 0.4em;
+}
+
+p {
+  font-size: 1.1em;
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.5;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.fa {
+  color: #f77d55;
+  font-size: 6em;
+  padding: 0.5em;
+}
+
+iframe {
+  min-height: 300px;
+  min-width: 600px;
 }
