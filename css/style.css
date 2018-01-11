@@ -5,6 +5,7 @@
 
 body {
   font: 14px 'Roboto Slab';
+  background-color: #f2f2f2;
 }
 
 .clearfix {
@@ -17,50 +18,56 @@ body {
   margin: 0 auto;
   text-align: center;
   width: 100%;
-  min-width: 1024px;
-  max-width: 1360px;
+  max-width: 1280px;
+}
+
+header {
+  height: auto;
+  width: 100%;
+  padding: 0;
 }
 
 .logo {
   display: inline-block;
   float: left;
-  width: 15%;
-  padding: 1em;
-  vertical-align: middle;
+  width: 20%;
+  padding: 5px;
 }
 
 .menu {
   display: inline-block;
   float: right;
-  width: 60%;
-  vertical-align: middle;
+  width: 80%;
+  text-align: right;
 }
 
-nav a {
+header a {
   display: inline-block;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #a4243d;
-  vertical-align: middle;
   padding: 1em 1em;
 }
 
-nav a img {
-  width: 150px;
+header a img {
+  height: auto;
   display: inline-block;
   vertical-align: middle;
-
 }
 
-nav ul {
-  display: inline-block;
-  vertical-align: middle;
+header ul {
+  padding: 0.5em 0;
   padding-left: 0;
+  margin: 0;
 }
 
-nav ul li {
+header ul li {
   display: inline-block;
-  vertical-align: middle;
   padding: 0.1em 0.2em;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
+  vertical-align: middle;
+}
+
+.flexslider {
+  border: none;
 }
